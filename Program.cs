@@ -42,6 +42,15 @@ namespace CursoCSharp {
                 // Classes e Metódos
 
                 {"Membros - Classes e Metódos", Membros.Executar },
+                {"Construtores - Classes e Metódos", Construtores.Executar },
+                {"Métodos Com Retorno - Classes e Metódos", MetodosComRetorno.Executar },
+                {"Métodos Estáticos - Classes e Metódos", MetodosEstaticos.Executar },
+                {"Atributos Estáticos - Classes e Metódos", AtributosEstaticos.Executar },
+                {"Desafio Atributo - Classes e Metódos", DesafioAtributo.Executar },
+                {"Params - Classes e Metódos", Params.Executar },
+                {"Parametros Nomeados - Classes e Metódos", ParametrosNomeados.Executar },
+                {"Get Set - Classes e Metódos", GetSet.Executar },
+                {"Props - Classes e Metódos", Props.Executar },
             });
 
             central.SelecionarEExecutar();
