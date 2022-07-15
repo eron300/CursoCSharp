@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-
-using CursoCSharp.Fundamentos;
+﻿using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturasDeControle;
 using CursoCSharp.ClassesEMetodos;
+using CursoCSharp.Colecoes;
 
 namespace CursoCSharp {
     class Program {
@@ -15,6 +13,7 @@ namespace CursoCSharp {
                 {"Comentários - Fundamentos", Comentarios.Executar },
                 {"Váriaveis e Constantes - Fundamentos", VariaveisEConstantes.Executar },
                 {"Inferência - Fundamentos", Inferencia.Executar },
+                {"Interpolação - Fundamentos", Interpolacao.Executar },
                 {"Notação Ponto - Fundamentos", NotacaoPonto.Executar },
                 {"Lendo dados - Fundamentos", LendoDados.Executar },
                 {"Formatando Número - Fundamentos", FormatandoNumero.Executar },
@@ -47,10 +46,29 @@ namespace CursoCSharp {
                 {"Métodos Estáticos - Classes e Metódos", MetodosEstaticos.Executar },
                 {"Atributos Estáticos - Classes e Metódos", AtributosEstaticos.Executar },
                 {"Desafio Atributo - Classes e Metódos", DesafioAtributo.Executar },
-                {"Params - Classes e Metódos", Params.Executar },
+                {"Params - Classes e Metódos", Params.Executar }, 
                 {"Parametros Nomeados - Classes e Metódos", ParametrosNomeados.Executar },
                 {"Get Set - Classes e Metódos", GetSet.Executar },
                 {"Props - Classes e Metódos", Props.Executar },
+                {"Readonly - Classes e Metódos", Readonly.Executar },
+                {"Enum - Classes e Metódos", ExemploEnum.Executar },
+                {"Struct - Classes e Metódos", ExemploStruct.Executar },
+                {"Struct Vs Classe - Classes e Metódos", StructVsClasse.Executar },
+                {"Valor Vs Referência - Classes e Metódos", ValorVSReferencia.Executar },
+                {"Parâmetros Por Referência - Classes e Metódos", ParametrosPorReferencia.Executar },
+                {"Parâmetro com Valor Padrão - Classes e Metódos", ParametroPadrao.Executar },
+
+                // Coleções
+
+                {"Array - Coleções", Colecoes.Array.Executar },
+                {"List - Coleções", ColecoesList.Executar },
+                {"Array List - Coleções", ColecoesArrayList.Executar },
+                {"Set - Coleções", ColecoesSet.Executar },
+                {"Queue - Coleções", ColecoesQueue.Executar },
+                {"Igualdade - Coleções", Igualdade.Executar },
+                {"Stack - Coleções", ColecoesStack.Executar },
+                {"Dictionary - Coleções", ColecoesDictionary.Executar },
+
             });
 
             central.SelecionarEExecutar();
