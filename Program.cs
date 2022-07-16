@@ -2,11 +2,14 @@
 using CursoCSharp.EstruturasDeControle;
 using CursoCSharp.ClassesEMetodos;
 using CursoCSharp.Colecoes;
+using CursoCSharp.OO;
 
 namespace CursoCSharp {
+    // Namespace -> As classes teram nomes únicos dentro de um mesmo 'espaço'
     class Program {
         static void Main(string[] args) {
             var central = new CentralDeExercicios(new Dictionary<string, Action>() {
+                
                 // Fundamentos
 
                 {"Primeiro Programa - Fundamentos", PrimeiroPrograma.Executar},
@@ -68,6 +71,16 @@ namespace CursoCSharp {
                 {"Igualdade - Coleções", Igualdade.Executar },
                 {"Stack - Coleções", ColecoesStack.Executar },
                 {"Dictionary - Coleções", ColecoesDictionary.Executar },
+
+                //OO
+
+                {"Herança - OO", Heranca.Executar },
+                {"Construtor This - OO", ConstrutorThis.Executar },
+                {"Encapsulamento This - OO", OO.Encapsulamento.Executar },
+                {"Polimorfismo - OO", Polimorfismo.Executar },
+                {"Abstract - OO", Abstract.Executar },
+                {"Interface - OO", Interface.Executar },
+                {"Sealed - OO", Sealed.Executar },
 
             });
 

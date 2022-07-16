@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32505.173
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoCSharp", "CursoCSharp.csproj", "{72917C72-79EA-4C11-9961-98BF1D40C78B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursoCSharp", "CursoCSharp.csproj", "{72917C72-79EA-4C11-9961-98BF1D40C78B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapsulamento", "..\Encapsulamento\Encapsulamento.csproj", "{65DD4DA4-F240-4B20-AA3A-D905943CF75F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{72917C72-79EA-4C11-9961-98BF1D40C78B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72917C72-79EA-4C11-9961-98BF1D40C78B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72917C72-79EA-4C11-9961-98BF1D40C78B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65DD4DA4-F240-4B20-AA3A-D905943CF75F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65DD4DA4-F240-4B20-AA3A-D905943CF75F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65DD4DA4-F240-4B20-AA3A-D905943CF75F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65DD4DA4-F240-4B20-AA3A-D905943CF75F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
